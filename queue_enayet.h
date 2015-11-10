@@ -1,4 +1,8 @@
-#pragma once
+//queue_enayet.h
+//queue_enayet
+
+#ifndef queue_enayet_h
+#define queue_enayet_h
 class queue_enayet
 {
 	struct node {
@@ -17,4 +21,6 @@ public:
 	int pop_return();
 	int peek();
 };
+
+#endif /*queue_enayet.h*/
 
